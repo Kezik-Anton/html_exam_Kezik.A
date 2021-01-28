@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #283136;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3 {
+    color:#000;
+}
+
+h1 {
+    font-size: 3.4em;
+}
+
+h2 {
+    font-size: 2.8em;
+}
+
+h3 {
+    font-size: 2.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 20px 40px;
+    border-radius: 3px;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.red {
+    background-color: #fb565a;
+}
+
+.green {
+    background-color: #00ca74;
+}
+
+.yellow {
+    background-color: #efc84a;
+}
+
+.content .offers,
+.content .discription,
+.content .brands {
+    border-bottom: 1px solid #eee;
+}
+.content .offers,
+.content .discription {
+    padding: 80px 0; 
+}
+
+.header {
+    background-color: #eee;
+    padding: 50px 0 20px;
+}
+
+.header .top_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top_header .nav,
+.top_header .cart {
+    margin-top: 20px;
+}
+
+.top_header ul {
+    list-style: none;
+    display: flex;
+}
+
+.top_header a {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.top_header a:hover {
+    color: #fb565a;   
+}
+
+.nav li:not(:last-child) {
+    margin-right: 45px;
+}
+
+.cart img {
+    margin-right: 20px;
+}
+
+.slider {
+    min-height: 400px;
+}
+
+.slider h1 {
+    margin: 60px 0 20px;
+}
+
+.slider .slider-text {
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.slider .wrapper {
+    display: flex;
+    position: relative;
+}
+
+.slider .slider-offer {
+    width: 33.33%;
+}
+
+.slider .slider-image {
+    width: 66.66%;
+    position: absolute;
+    right: 0;
+}
+
+.slider .slider-radio {
+    position: absolute; 
+    bottom: 10%;
+    left: 50%;
+}
+
+.content .offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers .offers-item {
+    width: 27%;
+}
+
+.offers-item .name {
+    margin: 27px 0 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.offers-item .caption {
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.content .discription {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discription .discription-text {
+    width: 66%;
+}
+
+.discription .discription-statistic {
+    width: 25%;
+}
+
+.discription h2 {
+    margin-bottom: 30px;
+}
+
+.discription-text .accent {
+    margin: 45px 0 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.discription-text .dash {
+    padding-left: 20px;
+}
